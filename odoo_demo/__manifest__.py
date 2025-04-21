@@ -6,9 +6,9 @@
     'author': '',
     'website': '',
     'category': '',
-    'depends': ['base', 'web'],
-    'data': [
-        
+    'depends': ['base', 'web', 'contacts'],
+    "data": [
+        "views/menus.xml"
     ],
     'assets': {
               'web.assets_backend': [

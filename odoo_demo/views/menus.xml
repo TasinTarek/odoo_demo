@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_contacts_root" name="Demo Contacts" sequence="1"/>
+    
+    <menuitem id="menu_contacts_submenu" name="Contacts" parent="menu_contacts_root" sequence="1"/>
+    
+    <menuitem id="menu_contacts_list" name="Contact Directory"
+        parent="menu_contacts_submenu"
+        action="contacts.action_contacts"
+        sequence="1"/>
+        
+</odoo>
